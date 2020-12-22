@@ -1986,6 +1986,11 @@
 	font-family: 'DietDidotBold';
 	color: #034e5a;
 }
+.b-partner-form .subtitle {
+	display: block;
+	font-size: 20px;
+	margin-top: 30px;
+}
 .b-partner-form .form-wrap {
 	padding: 40px 45px;
 	margin: 50px auto 0;
@@ -2016,6 +2021,119 @@
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
+}
+
+.b-contacts {
+	text-align: left;
+}
+.b-contacts .title {
+	display: block;
+	font-size: 50px;
+	font-family: 'DietDidotBold';
+	color: #034e5a;
+}
+.b-contacts .items {
+	margin-top: 35px;
+}
+.b-contacts .items .item {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #8ea2a5;
+	padding: 40px 0;
+}
+.b-contacts .items .item:last-child {
+	border: 0;
+}
+.b-contacts .items .item .content {
+	text-align: left;
+	width: 50%;
+}
+.b-contacts .items .item .content .name {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #505d57;
+}
+.b-contacts .items .item .content .text {
+	margin-top: 15px;
+	font-size: 16px;
+}
+.b-contacts .items .item .map {
+	width: calc(50% - 30px);
+	max-width: 470px;
+	min-height: 210px;
+}
+.b-contacts .items .item .map iframe {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.b-thanks {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 50px 0;
+	min-height: calc(100vh - 188px);
+}
+.b-thanks .title {
+	display: block;
+	font-size: 50px;
+	color: #034e5a;
+	font-family: 'DietDidotBold';
+}
+.b-thanks .subtitle {
+	display: block;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.b-thanks .image {
+	position: relative;
+	width: 100%;
+	max-width: 620px;
+	margin: 30px auto 0;
+}
+.b-thanks .image img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.b-thanks .b-btn {
+	max-width: 230px;
+	margin: 60px auto 0;
+	font-size: 18px;
+	padding: 19px 10px;
+	text-transform: none;
+}
+
+.b-policy .title {
+	display: block;
+	font-size: 50px;
+	color: #034e5a;
+	font-family: 'DietDidotBold';
+}
+.b-policy .items {
+	margin-top: 50px;
+}
+.b-policy .items .item {
+	text-align: left;
+	margin-top: 30px;
+}
+.b-policy .items .item-title {
+	display: block;
+	font-size: 24px;
+	font-weight: 600;
+}
+.b-policy .items .item .b-text {
+	margin-top: 20px;
 }
 
 
@@ -2218,6 +2336,21 @@
 	}
 
 	.b-about .title {
+		font-size: 40px;
+	}
+
+	.b-contacts .title {
+		font-size: 40px;
+	}
+
+	.b-thanks {
+		min-height: calc(100vh - 133px);
+	}
+	.b-thanks .title {
+		font-size: 40px;
+	}
+
+	.b-policy .title {
 		font-size: 40px;
 	}
 }
@@ -2654,6 +2787,10 @@
 	.b-partner-form .title {
 		font-size: 30px;
 	}
+	.b-partner-form .subtitle {
+		font-size: 16px;
+		margin-top: 20px;
+	}
 	.b-partner-form .form-wrap {
 		padding: 20px;
 		margin: 20px auto 0;
@@ -2664,6 +2801,71 @@
 	}
 	.b-about .image {
 		margin: 20px auto 0;
+	}
+
+	.b-contacts {
+		text-align: center;
+	}
+	.b-contacts .items {
+		margin-top: 30px;
+	}
+	.b-contacts .items .item {
+		padding: 15px 0;
+		display: block;
+	}
+	.b-contacts .items .item .content {
+		text-align: center;
+		width: 100%;
+	}
+	.b-contacts .items .item .content .name {
+		font-size: 14px;
+	}
+	.b-contacts .items .item .content .text {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.b-contacts .items .item .map {
+		width: 100%;
+		max-width: none;
+		height: 300px;
+		min-height: auto;
+		margin-top: 20px;
+	}
+
+	.b-thanks {
+		min-height: calc(100vh - 104px);
+		padding: 30px 0;
+	}
+	.b-thanks .title {
+		font-size: 30px;
+	}
+	.b-thanks .subtitle {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.b-thanks .image {
+		margin: 20px auto 0;
+	}
+	.b-thanks .b-btn {
+		margin: 30px auto 0;
+		font-size: 14px;
+		padding: 16px 10px;
+	}
+
+	.b-policy .title {
+		font-size: 30px;
+	}
+	.b-policy .items {
+		margin-top: 30px;
+	}
+	.b-policy .items .item {
+		margin-top: 20px;
+	}
+	.b-policy .items .item-title {
+		font-size: 20px;
+	}
+	.b-policy .items .item .b-text {
+		margin-top: 15px;
 	}
 }
 @media screen and (max-width: 560px){
